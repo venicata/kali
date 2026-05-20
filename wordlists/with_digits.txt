@@ -1,0 +1,9 @@
+
+  "AMDGPU" (21.50 or later) and "ROCm" (5.0 or later)
+  "CUDA Toolkit" (9.0 or later)
+  "NVIDIA Driver" (440.64 or later)
+  "OpenCL Runtime for Intel Core and Intel Xeon Processors" (16.1.1 or later)
+* AMD GPUs on Linux require this driver:
+* Intel CPUs require this runtime:
+* NVIDIA GPUs require this runtime and/or driver (both):
+You are probably missing the OpenCL, CUDA or HIP runtime installation.
